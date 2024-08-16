@@ -8,8 +8,8 @@ class AuthService extends React.Component {
     static login(username, password) {
         //Check the incoming data
         try {
-            if (username === "adm_nsw" && password === "aalansw*3") {   //Use the Dummy Data for the demo purpose. 
-                const UserData = { 'username': 'adm_nsw', 'Name': 'Athar Mehmood' };
+            if (username === "adm_nsw" && password === "aalansw*3") {   //Use the Dummy Data for the demo purpose.
+                const UserData = { 'username': 'adm_nsw', 'Name': 'Athar Mahmood' };
                 localStorage.setItem(USER_STORAGE_NAME, JSON.stringify(UserData));
 
                 //Initialize the peronalized data
